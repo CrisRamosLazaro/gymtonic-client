@@ -2,7 +2,7 @@ import { useContext, useState } from "react"
 import { ThemeContext } from '../../contexts/theme.context'
 import { Form, Button, Container } from "react-bootstrap"
 import authService from './../../services/auth.services'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from "../../contexts/auth.context"
 import '../LoginForm/LoginForm.css'
 
@@ -69,7 +69,7 @@ const LoginForm = () => {
                         </Button>
                     </div>
 
-                    <p className={variant === 'light' ? 'login-footer-light' : 'login-footer-dark'}>Don't have an account? <a className="login-link" href="/signup">Sign up!</a></p>
+                    <p className={variant === 'light' ? 'login-footer-light' : 'login-footer-dark'}>Don't have an account? <Link to="/signup" className="login-link">Sign up!</Link></p>
 
                 </Form>
             </Container>
