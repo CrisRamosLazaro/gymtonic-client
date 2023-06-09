@@ -35,9 +35,9 @@ const MyWorkoutsPage = () => {
 
     return (
         <>
-            <div >
+            <Container >
                 <h1 className={variant === 'light' ? 'sticky-progress-bar-light' : 'sticky-progress-bar-dark'}>Select a workout</h1>
-            </div>
+            </Container>
             {
                 workoutSelection.sort().map(level => (
                     <Container key={level}>
