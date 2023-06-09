@@ -3,6 +3,8 @@ import { AuthContext } from './../../contexts/auth.context'
 import { Container, Row, Col, Button, Modal } from 'react-bootstrap'
 import userService from "../../services/user.services"
 import { Link, useNavigate } from "react-router-dom"
+import { ThemeContext } from '../../contexts/theme.context'
+
 import '../ProfilePage/ProfilePage.css'
 
 const ProfilePage = () => {
@@ -11,6 +13,9 @@ const ProfilePage = () => {
     const [userData, setUserData] = useState({})
     const [showModal, setShowModal] = useState(false)
     const navigate = useNavigate()
+
+    const { theme, switchTheme } = useContext(ThemeContext)
+    const variant = theme === 'light' ? 'dark' : 'light'
 
     const loadUser = () => {
         userService
@@ -36,7 +41,7 @@ const ProfilePage = () => {
     }
 
     return (
-        <Container className="profilePageContainer">
+        <Container className='profilePageContainer'>
             <h1 className="profilePageH1">Rise and shine, {userData.username}!</h1>
             <hr className="profilePageHr" />
             <Row className="profilePageRow">

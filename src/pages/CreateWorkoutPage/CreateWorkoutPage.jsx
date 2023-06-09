@@ -117,7 +117,7 @@ const CreateWorkoutPage = () => {
     }
 
     return (
-        <Container>
+        <Container style={{ paddingBottom: '50px' }}>
             <div className={variant === 'light' ? 'sticky-progress-bar-light' : 'sticky-progress-bar-dark'}>
                 <h3 className="create-workout-h3">Create your <span className="create-workout-type">{workoutType.toUpperCase()} </span> workout</h3>
                 <h5>Level {level}</h5>

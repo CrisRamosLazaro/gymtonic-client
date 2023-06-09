@@ -7,6 +7,7 @@ import AppRoutes from './routes/AppRoutes'
 import Navigation from './components/Navigation/Navigation'
 import NavigationTop from './components/NavigationTop/NavigationTop'
 import NavigationBottom from './components/NavigationBottom/NavigationBottom'
+import { Container } from "react-bootstrap"
 import Footer from './components/Footer/Footer'
 
 

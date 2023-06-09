@@ -1,0 +1,19 @@
+.custom-whats-next-button {
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    max-width: 100%;
+    margin-top: 25px !important;
+    margin-right: 45px;
+    width: 150px !important
+}
+
+.whats-next-container {
+    height: 100vh;
+}
