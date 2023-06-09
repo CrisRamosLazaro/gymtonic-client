@@ -1,0 +1,8 @@
+.topNumber {
+    display: flex;
+    justify-content: end;
+}
+
+ul {
+    list-style: none;
+}

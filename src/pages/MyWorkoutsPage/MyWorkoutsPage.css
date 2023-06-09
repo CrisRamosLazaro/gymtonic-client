@@ -1,0 +1,104 @@
+.my-workouts-button-light {
+
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    flex: 1 1 auto
+}
+
+.my-workouts-button-light:hover {
+    --button-gradient: linear-gradient(to right, #d07200, #ffbf58);
+}
+
+.my-workouts-button-dark {
+
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    flex: 1 1 auto
+}
+
+.my-workouts-button-light:hover {
+    --button-gradient: linear-gradient(to right, #d07200, #ffbf58);
+}
+
+.my-workouts-button-dark:hover {
+    --button-gradient: linear-gradient(to right, #d07200, #ffbf58);
+}
+
+.no-workouts-button-light {
+
+    /* --button-gradient: linear-gradient(to right, #ff8c00, #ffc871); */
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    flex: 1 1 auto
+}
+
+.no-workouts-button-dark {
+
+    /* --button-gradient: linear-gradient(to right, #ff8c00, #ffc871); */
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    flex: 1 1 auto
+}
+
+.no-workouts-button-dark:hover {
+    background-color: #252525;
+}
+
+.completed-times {
+    font-size: 0.7em;
+}
+
+.no-workout-yet {
+    font-size: 0.7em;
+    color: #747474
+}
+
+.my-workout-box {
+    margin: 1rem;
+
+}
+
+.my-workouts-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    flex-wrap: nowrap
+}

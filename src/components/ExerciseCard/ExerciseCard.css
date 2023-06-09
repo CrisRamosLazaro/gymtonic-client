@@ -1,0 +1,19 @@
+.ExercisesCard {
+    width: 300px;
+}
+
+.ExerciseCardImage {
+    object-fit: cover;
+    height: 200px;
+}
+
+.ExerciseCardH1 {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn {
+    width: 100%;
+}

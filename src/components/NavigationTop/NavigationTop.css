@@ -1,0 +1,16 @@
+.themeButton img {
+    width: 10%;
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+}
+
+.c-grid {
+    justify-content: center;
+    display: flex;
+}
+
+.NavbarTop {
+    background-color: transparent;
+}

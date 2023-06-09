@@ -1,0 +1,53 @@
+.sticky-progress-bar-light {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: linear-gradient(20deg, #ffd48e, #fde2b6);
+    padding: 20px;
+
+}
+
+.sticky-progress-bar-dark {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: linear-gradient(20deg, #2e2e2e, #353535);
+    /* background: #353535; */
+    padding: 20px;
+}
+
+.custom-workout-button {
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    width: 250px !important;
+    padding: 15px;
+}
+
+.workout-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-progress-bar .progress-bar {
+    background: linear-gradient(to right, #ffbf58, #d07200);
+}
+
+.create-workout-h3 {
+    text-align: left !important;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+.create-workout-type {
+    color: #d07200;
+}

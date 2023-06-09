@@ -1,0 +1,46 @@
+.ExerciseCard-dark {
+    background-color: #4a4a4a;
+    color: #fff;
+}
+
+.ExerciseCard-light {
+    background-color: #fff;
+    color: #4a4a4a;
+}
+
+.ExerciseCard img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.workout-input {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    background-color: #fff;
+    font-size: 0.8em;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.percentage {
+    font-size: 0.75em;
+}
+
+.card-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 992px) {
+    .card-container {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}

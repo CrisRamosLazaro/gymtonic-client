@@ -1,0 +1,45 @@
+.checkbox-wrapper-light input[type='checkbox'] {
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.05em solid #252525;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-wrapper-dark input[type='checkbox'] {
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 0.15em;
+    margin-right: 0.5em;
+    border: 0.05em solid #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+input:checked {
+    background-color: #d37400;
+    position: relative;
+}
+
+input:checked::before {
+    content: '✓';
+    font-size: 1em;
+    color: #fff;
+    position: absolute;
+    right: 1px;
+    top: -5px;
+}
+
+.checkbox-wrapper input[type="checkbox"]:focus {
+    box-shadow: 0 0 5px #3e3e3e;
+}

@@ -1,0 +1,102 @@
+.profilePageContainer {
+    padding: 20px;
+}
+
+.profilePageH1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profilePageHr {
+    border-top: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.profilePageRow {
+    margin-bottom: 20px;
+}
+
+.profilePageCol {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profileDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileDetails h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-content: end;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profileDetails h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    width: auto;
+}
+
+.btn-dark:hover {
+    background-color: #555;
+    border-color: #555;
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-header {
+    background-color: #333;
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 24px;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-footer .btn {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.modal-footer .btn:hover {
+    background-color: #555;
+    border-color: #555;
+}

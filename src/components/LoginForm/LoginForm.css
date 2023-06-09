@@ -1,0 +1,195 @@
+.login-title-light {
+    text-align: left !important;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+    color: #252525 !important
+}
+
+.login-title-dark {
+    text-align: left !important;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+    color: #f0f0f0
+}
+
+.login-subtitle-light {
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: rgb(113, 113, 113);
+    font-size: 0.8em;
+}
+
+.login-subtitle-dark {
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    color: rgb(180, 180, 180);
+    font-size: 0.8em;
+}
+
+.login-footer-light {
+    width: 100%;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    margin-top: 100px;
+}
+
+.login-footer-dark {
+    width: 100%;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    margin-top: 100px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #ff8c00;
+}
+
+.login-link:hover {
+    color: #d07200 !important;
+    transition: all 0.3s ease;
+}
+
+.d-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-button {
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.3s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    width: 150px !important
+}
+
+.custom-button:hover {
+    --button-gradient: linear-gradient(to right, #d07200, #ffbf58);
+}
+
+.transparent-input-light {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.transparent-input-dark {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
+    outline: none;
+}
+
+.email-input-light {
+    background-image: url('../../assets/images/email-envelope.png');
+    background-size: 15px 15px;
+    background-position: 7.5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.email-input-dark {
+    background-image: url('../../assets/images/email-envelope-darkmode.png');
+    background-size: 15px 15px;
+    background-position: 7.5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.password-input-light {
+    background-image: url('../../assets/images/padlock-password.png');
+    background-size: 15px 15px;
+    background-position: 7.5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.password-input-dark {
+    background-image: url('../../assets/images/padlock-password-darkmode.png');
+    background-size: 15px 15px;
+    background-position: 7.5px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.transparent-input-dark:focus,
+.email-input-dark:focus,
+.password-input-dark:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.24) !important;
+    outline: none !important;
+}
+
+/* Chrome, Firefox, Opera, Safari 10.1+ */
+.email-input-light::placeholder,
+.password-input-light::placeholder {
+    color: grey;
+    font-size: 0.8em;
+    /* adjust as needed */
+    opacity: 1;
+    /* Firefox */
+}
+
+.email-input-dark::placeholder,
+.password-input-dark::placeholder {
+    color: #e9e1e1;
+    font-size: 0.8em;
+    /* adjust as needed */
+    opacity: 1;
+    /* Firefox */
+}
+
+/* Internet Explorer 10-11 */
+.email-input-light:-ms-input-placeholder,
+.password-input-ligh:-ms-input-placeholder {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.email-input-dark:-ms-input-placeholder,
+.password-input-dark:-ms-input-placeholder {
+    color: #e9e1e1;
+    font-size: 0.8em;
+}
+
+/* Microsoft Edge */
+.email-input-light::-ms-input-placeholder,
+.password-input-light::-ms-input-placeholder {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.email-input-dark::-ms-input-placeholder,
+.password-input-dark::-ms-input-placeholder {
+    color: #e9e1e1;
+    font-size: 0.8em;
+}
+
+.transparent-input-dark:focus,
+.email-input-dark:focus,
+.password-input-dark:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
+    background-color: #494949;
+    color: #e9e1e1;
+    outline: none;
+}
+
+.transparent-input-dark:active,
+.email-input-dark:active,
+.password-input-dark:active {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
+    background-color: #494949;
+    color: #e9e1e1;
+    outline: none;
+}

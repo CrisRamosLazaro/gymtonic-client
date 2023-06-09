@@ -1,0 +1,31 @@
+/* .sticky-progress-bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #4a4a4a;
+    padding: 20px;
+} */
+
+.custom-workout-button {
+    --button-gradient: linear-gradient(to right, #ff8c00, #ffc871);
+    --font-color: #fff;
+    font-weight: bold;
+    background: var(--button-gradient);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: var(--font-color);
+    transition: all 0.8s ease;
+    margin-right: 0 !important;
+    margin-top: 25px !important;
+    width: 250px !important;
+    padding: 15px;
+}
+
+.custom-workout-button:hover {
+    --button-gradient: linear-gradient(to right, #d07200, #ffbf58);
+}
+
+.custom-workout-button:disabled {
+    --button-gradient: linear-gradient(to right, rgb(60, 51, 36), #c7b4a3);
+}

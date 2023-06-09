@@ -1,0 +1,106 @@
+.background::after {
+    content: '';
+    background: url(../../assets/images/overlay.png) repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.background-horizontal,
+.background-vertical {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0;
+}
+
+.desktop-video {
+    object-fit: contain;
+}
+
+.mobile-video {
+    size: 10% !important;
+}
+
+.centered-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 2;
+}
+
+.custom-home-button {
+    margin: 10px;
+    width: 200px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.white-button {
+    background-color: white;
+    color: #343434;
+    border: 2px solid #ffffff;
+}
+
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #ddd;
+}
+
+.white-button:hover {
+    background-color: #c9c9c9;
+    border: 2px solid #c9c9c9;
+}
+
+.transparent-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.white-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(189, 189, 189, 0.25);
+}
+
+.transparent-button:active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: #ddd !important;
+}
+
+.white-button:active {
+    background-color: #bdbdbd !important;
+    border-color: #bdbdbd !important;
+
+}
+
+.no-margin {
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .background-horizontal {
+        display: block;
+    }
+
+    .background-vertical {
+        display: none;
+    }
+}
